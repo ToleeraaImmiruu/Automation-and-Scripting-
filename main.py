@@ -11,7 +11,6 @@ for page_num in range(1, 6):
 
   print(f"Scraping page {page_num}:{url}")
   response = requests.get(url)
-
   if response.status_code != 200:
     print(f"page {page_num} not found. stopping.")
     break
