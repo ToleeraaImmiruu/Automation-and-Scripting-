@@ -17,7 +17,6 @@ for page_num in range(1, 6):
     break
 
 soup = BeautifulSoup(response.content, "html.parser")
-
 all_books_on_page = soup.find_all("article", class_="product_pod")
 
 for book in all_books_on_page:
