@@ -7,7 +7,8 @@ import time
 all_books_data = []
 for page_num in range(1, 6):
   url = f"https://books.toscrape.com/catalogue/page-{page_num}.html"
-  
+
+
   print(f"Scraping page {page_num}:{url}")
   response = requests.get(url)
 
