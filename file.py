@@ -1,6 +1,7 @@
 
 # # Working with the File with using OS and another one
 
+<<<<<<< HEAD
 # # import os
 # # import shutil
 
@@ -14,6 +15,20 @@
 # # for pdf in list_file:
 # #   if pdf
 # # print(f"Here the list of your file {list_file}")
+=======
+# import os
+# import shutil
+# source_file = r"C:\Users\Toli\Desktop\action"
+# with os.scandir(source_file) as  entries:
+#   for entry in entries:
+#     print(entry.name)
+
+
+# list_file =  os.listdir()
+# for pdf in list_file:
+#   if pdf
+# print(f"Here the list of your file {list_file}")
+>>>>>>> 74eb6c97bff3b433397beaaeb94f6f74bbbd1e84
 
 # # print(os.getcwd)
 # # # os.removedirs("os_create/file.py")
