@@ -1,7 +1,6 @@
 
 # # Working with the File with using OS and another one
 
-
 # # import os
 # # import shutil
 
