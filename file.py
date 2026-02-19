@@ -1,7 +1,7 @@
 
 # # Working with the File with using OS and another one
 
-<<<<<<< HEAD
+
 # # import os
 # # import shutil
 
@@ -15,7 +15,7 @@
 # # for pdf in list_file:
 # #   if pdf
 # # print(f"Here the list of your file {list_file}")
-========
+
 # import os
 # import shutil
 # source_file = r"C:\Users\Toli\Desktop\action"
@@ -28,7 +28,7 @@
 # for pdf in list_file:
 #   if pdf
 # print(f"Here the list of your file {list_file}")
->>>>>>> 74eb6c97bff3b433397beaaeb94f6f74bbbd1e84
+
 
 # # print(os.getcwd)
 # # # os.removedirs("os_create/file.py")
@@ -239,12 +239,29 @@
 
 
                 # working with xlwings for file 
-import xlwings as xw 
-wb = xw.Book()
-# print(wb.sheets)
+# import xlwings as xw 
+# wb = xw.Book()
+# # print(wb.sheets)
 
-# Adding the worksheets 
-wb.sheets.add(name = "Test" , before = "Sheet1")
-print(wb.sheets.count)
-ws = wb.sheets['Test1']
+# # Adding the worksheets 
+# wb.sheets.add(name = "Test" , before = "Sheet1")
+# print(wb.sheets.count)
+# ws = wb.sheets['Test1']
 
+# path = r"D:\Ecxel\Form.xlsx"
+# obj = xw.books.open(path)
+# # print (obj.name)
+# import os 
+# print(os.getcwd())
+
+
+    # Working with the CSV and handle the case related to this one 
+
+
+import csv 
+
+filename =  r"D:\Ecxel\Test.csv"
+
+with open(filename , "w" , newline = "") as f:
+  wrt = csv.writer (f,delimiter= ' ')
+  wrt.writerow(['first-column', 'second-column'])
