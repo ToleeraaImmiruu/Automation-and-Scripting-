@@ -12,7 +12,8 @@ for page_num in range(1, 6):
   response = requests.get(url)
   if response.status_code != 200:
     print(f"page {page_num} not found. stopping.")
-    break
+    
+  break
 
 soup = BeautifulSoup(response.content, "html.parser")
 all_books_on_page = soup.find_all("article", class_="product_pod")
