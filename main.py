@@ -3,7 +3,6 @@ from bs4 import BeautifulSoup
 import requests
 import csv
 import time 
-
 all_books_data = []
 for page_num in range(1, 6):
   url = f"https://books.toscrape.com/catalogue/page-{page_num}.html"
