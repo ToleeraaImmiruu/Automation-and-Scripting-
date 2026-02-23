@@ -6,7 +6,6 @@
 
 # # source_file = r"C:\Users\Toli\Desktop\action"
 
-
 # # with os.scandir(source_file) as  entries:
 # #   for entry in entries:
 # #     print(entry.name)
