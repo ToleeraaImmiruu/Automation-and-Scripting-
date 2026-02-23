@@ -1,6 +1,5 @@
 
 # # Working with the File with using OS and another one
-
 # # import os
 # # import shutil
 # # source_file = r"C:\Users\Toli\Desktop\action"
