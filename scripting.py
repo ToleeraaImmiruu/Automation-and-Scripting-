@@ -6,7 +6,6 @@ url = "https://www.amazon.com/s?k=playstation+4"
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 }
-
 response = requests.get(url, headers=headers)
 soup = BeautifulSoup(response.content, "html.parser")
 
