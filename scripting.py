@@ -2,7 +2,6 @@ from bs4 import BeautifulSoup
 import requests
 
 url = "https://www.amazon.com/s?k=playstation+4"
-
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 }
