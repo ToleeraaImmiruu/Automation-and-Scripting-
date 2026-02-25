@@ -14,5 +14,4 @@ first_product = soup.find("a", class_="a-link-normal s-line-clamp-2 puis-line-cl
 title = first_product.find("h2").text.strip()
 price_div = soup.find("div", attrs={"data-cy": "secondary-offer-recipe"})
 price = price_div.find("span", class_="a-color-base").text
-
 print(price)
