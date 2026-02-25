@@ -7,7 +7,6 @@ headers = {
 }
 response = requests.get(url, headers=headers)
 soup = BeautifulSoup(response.content, "html.parser")
-
 # Find the FIRST product link
 first_product = soup.find("a", class_="a-link-normal s-line-clamp-2 puis-line-clamp-3-for-col-4-and-8 s-link-style a-text-normal")
 
